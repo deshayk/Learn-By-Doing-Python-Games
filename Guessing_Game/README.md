@@ -1,6 +1,15 @@
-# Guessing Game
+# Python Guessing Game
+Game Name: Guessing Game
+Version: 1.0
+Contributors: DeShay K.
 
-## Directions
+# Project Overview
+How many guesses will it take for you to get the correct number?
+
+# Project Description
+The aim of this project is two fold: have a better understanding of the Python programming language and test that skill through application development. If you want a walkthrough of key concepts covered in this python program, make sure you read the [Medium article]() I wrote. Remember, friends, do or do not; there is no try!
+
+## Program Instructions
 ### Step 1: Write Psuedo Code
 Sample psuedo code in the Python Programming Language is as follows:
 
