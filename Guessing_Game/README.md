@@ -19,12 +19,22 @@ The program should greet the user, welcoming them to the game and giving game in
 The program should generate a random number using random.randint() and stores the random number in a variable. The program should include user input and the random.randint() method.
 
 ### Step 4: User Guesses Random Number
-### Step 5: Program compares user guess to generated random number
-### Step 6: Program prints comparison
-### Step 7: User guesses again
-### Step 8: Repeat steps 6-8 until correct guess 
-### Step 9: Print congradulations message
-### Step 10: Ask user if they would like to play again    
+The program will prompt the user to guess a number by taking their input and storing that input in a variable.
 
-## Learn By Doing Series
-The Learn By Doing Series is 
+### Step 5: Program compares user guess to generated random number
+The program will compare the user's guess to the number it generated to check if the number guessed is correct.
+
+### Step 6: Program prints comparison
+The program will tell the user if their guess is too high or too low based on a comparison between what the user guessed and the random number the program generated. If the user's guess is greater than the generated number, the program prints a too high message. If the user's guess is less than the generated number, the program prints a too low message.
+
+### Step 7: User guesses again
+If the user's guess was too high or too low, they will guess again.
+
+### Step 8: Repeat steps 6-8 until correct guess 
+The user will continue guessing a number until they guess the correct number.
+
+### Step 9: Print congradulations message
+When the user successfully guesses the correct number, a congradulations message will be printed to the screen.
+
+### Step 10: Ask user if they would like to play again (optional)   
+Once the user successfully finishes as guessing game, they will be prompted asking if they would like to play again. If the player wants to play again, the game reboots. If the player doesn't want to play again, the program gives an exit message and the game ends.
