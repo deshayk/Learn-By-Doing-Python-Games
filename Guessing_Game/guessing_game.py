@@ -1,3 +1,10 @@
+"""
+Learn by Doing - Guessing Game by DeShay K.
+Github: https://github.com/deshayk
+Medium: https://www.medium.com/@deshayk
+LinkedIn: https://www.linkedin.com/in/deshayk/
+"""
+
 import random #import random module
 
 def greeting(): #program greeting
@@ -49,3 +56,8 @@ def play_again():
     game()
   else: #if user does not want to play again, program prints "Thanks for playing!" and exits
     print("Thanks for playing!")
+
+if __name__ == "__main__":
+  greeting()
+  game()
+  play_again()
