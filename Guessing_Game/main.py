@@ -1,10 +1,16 @@
-import random
+  """
+  Program notes (4/12/22):
+  Having trouble with the loop. I need to give the user a chance to guess again during
+  the while loop. Right now, all it does it take one guess and iterates through the loop
+  multiple times with that one guess.
+  """
 
-#program greeting
-#program asks user to input a number for the range of the random number
-#computer generates a random number between 1 and x (user input)
-#user guesses the number
-#computer tells user if guess is too high or too low
-#if user guess is too high, program prints "Too high. Guess again."
-#if user guess is too low, program prints "Too low. Guess again."
-#if user guess is correct, program prints "You got it! The number was " + number
+
+from guessing_game import greeting, game, play_again
+
+def main():
+  greeting()
+  game()
+  play_again()
+  
+main()
