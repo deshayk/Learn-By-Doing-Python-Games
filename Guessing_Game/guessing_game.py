@@ -18,11 +18,11 @@ def greeting(): #program greeting
 def game(): # program tells user if guess is too high or too low
   print("I'm thinking of a number between 1 and 100.")
   print("\n")
-  computer_number = random.randint(1, 100) #computer generates a random number between 1 and x (user input)
+  computer_number = random.randint(1, 100) #computer generates a random number between 1 and 100
   guess_count = 0 #user guesses the number 
   user_guess = 0 
-  while user_guess != computer_number: #and guess_count < 5: #while user guess is not equal to computer number
-    user_guess = int(input("What number am I thinking of?: "))
+  while user_guess != computer_number: #while user guess is not equal to computer number
+    user_guess = int(input("What number am I thinking of?: ")) #user guesses the number, overwriting default value
     if user_guess > computer_number: #if user guess is greater than computer number
       guess_count += 1
       print("Your guess is too high. Try again.") # if user guess is too high, program prints "Too high. Guess again."
