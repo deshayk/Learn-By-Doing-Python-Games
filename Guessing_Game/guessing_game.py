@@ -28,13 +28,14 @@ def game(): # program tells user if guess is too high or too low
       print("Your guess is too high. Try again.") # if user guess is too high, program prints "Too high. Guess again."
       print("You have " + str(guess_count) + " round(s) of guessing.")
       print("\n")
-    else:
+    elif user_guess < computer_number:
       guess_count += 1
       print("Your guess is too low. Try again.") # if user guess is too low, program prints "Too low. Guess again."
       print("You have " + str(guess_count) + " round(s) of guessing.")
       print("\n")
-  print("You guessed the number!")
-  print("It only took you " + str(guess_count) + " round of guessing. Congratulations!")
+    else:
+      print("You guessed the correct number!") # if user guess is equal to computer number, program prints "You guessed the correct number!"
+      print("It only took you " + str(guess_count) + " round(s) of guessing. Congratulations!")
         
 #asks if user wants to play again
 def play_again():
