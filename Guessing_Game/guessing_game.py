@@ -36,17 +36,17 @@ def game(): # program tells user if guess is too high or too low
       guess_count += 1
       print("You have " + str(guess_count) + " guess(es) in total.")
       print("\n")
-      if user_guess == computer_number:
-        guess_count += 1
-        print("You guessed the correct number!") #if user guess is correct, program prints "You got it! The number was " + number
-      elif guess_count >= 2 and guess_count <= 4:
-        print("Congrats! It only took you " + str(guess_count) + " guesses.")
-      elif guess_count >= 4 and guess_count <= 5:
-        print("Phew! It was a close game, it took you " + str(guess_count) + " guesses.")
-        print("But a victory is still a victory!")
-      else:
-        print("You have guessed the number wrong more than five times. The correct number was " + str(computer_number) + ".")
-        print("Better luck next time!")
+      # if user_guess == computer_number:
+      #   guess_count += 1
+      #   print("You guessed the correct number!") #if user guess is correct, program prints "You got it! The number was " + number
+      # elif guess_count >= 2 and guess_count <= 4:
+      #   print("Congrats! It only took you " + str(guess_count) + " guesses.")
+      # elif guess_count >= 4 and guess_count <= 5:
+      #   print("Phew! It was a close game, it took you " + str(guess_count) + " guesses.")
+      #   print("But a victory is still a victory!")
+      # else:
+      #   print("You have guessed the number wrong more than five times. The correct number was " + str(computer_number) + ".")
+      #   print("Better luck next time!")
         
 #asks if user wants to play again
 def play_again():
